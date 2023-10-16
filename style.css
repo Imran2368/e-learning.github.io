@@ -1,0 +1,115 @@
+*{
+    font-family: sans-serif;
+}
+/* Header start */
+.header{
+    background-image: url(media/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menubar{
+    padding:50px 0;
+}
+
+.header_content{
+    padding: 130px 0 ;
+}
+/* Header start */
+
+/* services start */
+.services{
+    background-color: rgb(248, 245, 241) ;
+}
+
+/* services end */
+
+/* time table start */
+.time_table{
+    background-color: rgb(248, 245, 241) ;
+}
+/* time table end */
+
+/* testimony start */
+.testimony{
+    background-image: url(media/testimony_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* testimony end */
+
+/* portfolio start */
+.img_div {
+    position: relative;
+    width: 100%;  
+  }
+  
+  .shoes_image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .img_div:hover .image {
+    opacity: 0.7;
+  }
+  
+  .img_div:hover .middle {
+    opacity: 0.3;
+  }
+  
+  .over_text {
+    font-weight: bolder;
+    background-color: rgb(133, 138, 136);
+    color: white;
+    font-size: 20px;
+    padding: 80px 0;
+    opacity: 1;
+  }
+/* portfolio end */
+
+/* blog start */
+.blog_btn{
+    margin-top:-200px;
+}
+
+.date_btn{
+    margin-left: -10px;
+    margin-bottom: 30px;
+
+}
+.blog_pic{
+    margin-bottom: -67px;
+}
+/* blog end */
+
+/* footer start */
+
+.group_box{
+    border:none;
+    border-radius: 0;
+    outline: none;
+}
+
+.title_img{
+    float: left;
+    margin-right:15px;
+}
+
+/* footer end */
+
